@@ -1,4 +1,5 @@
-company-docs
-============
+# Company Documents
 
-Company documents -- bylaws, mission statement, credo, roadmap, etc.
+Herein you will find such administrivia as business notes, logos,
+bylaws, mission statements, credos, roadmaps, forms, letterheads,
+meeting notes, etc.
