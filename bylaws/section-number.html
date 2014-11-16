@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+dl.sections
+{
+counter-reset:section;
+}
+
+.sections dt
+{
+counter-reset:subsection;
+}
+
+.sections dt:before
+{
+content:"Section " counter(section) ". ";
+counter-increment:section;
+}
+
+.sections dd:before 
+{
+counter-increment:subsection;
+content:counter(section) "." counter(subsection) " ";
+}
+</style>
+</head>
+
+<body>
+<h1>Achieving numbering like 1, 1.1, 1.2, 2, 2.1 ...</h1>
+
+<dl class="sections">
+<dt>First Term</dt>
+<dd>Condition 1</dd>
+<dd>Condition 2</dd>
+<dd>Condition 3</dd>
+<dt>Second Term</dt>
+<dd>Condition 1</dd>
+<dd>Condition 2</dd>
+</dl>
+</body>
+</html>

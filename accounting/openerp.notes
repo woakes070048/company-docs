@@ -1,0 +1,55 @@
+http://localhost:8069/#action=database_manager
+
+Master password is, by default "admin"... and it worked!
+
+Database is novaweb, password is NoVA-web.
+
+Started by installing "Point of Sale" which went to URL
+
+  http://localhost:8069/?db=novaweb#menu_id=60&action=39
+
+asked for
+
+Accounting Package [custom]: United States - Chart of Accounts
+Company: [Your Company]: Your Company
+
+Canceled it the first time through to try to take care of "Your
+Company" being the only option.  Went to Administrator -> Preferences
+in the upper right corner.
+
+  Language: English       Timezone: America/New York
+  Receive email: Never
+  Email: dc.loco@gmail.com
+  Signature: -- 
+             Kevin Cole
+             Administrator
+
+This added a menu bar at the top and a menu bar at the side.  Now
+"General Settings" is available (under "Configuration" in the left
+sidebar menu).  It offeres "Configure your company data"
+
+   NoVA Web Development
+   5041 7th Road South
+   Arlington, VA 22204-2522
+   Employer ID Number: 46-1041004
+
+Installed Invoicing Journals in an attempt to get at the insistance of
+Point of Sale using "Your Company" as the company name, despite being
+told to cancel the installation...  And the answer is:
+
+http://help.openerp.com/question/26802/solved-change-default-shop-name-warehouse-creation/
+
+  Activate the rule on your
+    Configuration->Users->Users->YourUser->Access Rights->Technical Settings:
+    Manage multiple sites
+  and warehouses
+
+  To modify the name of a warehouse go to
+      Warehouse->Configuration->Warehouses.
+  Select the warehouse you want to and click on the Modify button.
+
+  To modify the name of a shop, you must go to :
+      Sales->Configuration->Shops
+  select yours and edit it.
+
+And that didn't help...

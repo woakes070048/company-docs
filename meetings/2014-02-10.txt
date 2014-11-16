@@ -1,0 +1,24 @@
+NoVA Web Development
+
+Planning for 2014.
+
+"Agenda" from Michelle (NSF)
+* Current ongoing projects
+  - http://www.codefornova.org/
+  - South Arlington Hackerspace
+  - Github repo
+  - Web site (basic HTML)
+  - Civic hacking 
+  - Playground 
+  - Alexandria communicators database
+  - NSF Patent research
+
+* Workshops to host (educational opportunities, hands-on workshops)
+* Hackathon Feb 22-23
+* Strategic outreach
+
+Node.js tutorials:
+  http://nodeschool.io/
+
+The wiki:
+  http://wiki.novawebdev.webfactional.com/
